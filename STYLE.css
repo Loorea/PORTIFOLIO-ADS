@@ -1,0 +1,49 @@
+body{
+    background: rgb(254, 254, 235);
+}
+#ADS, #bpk{
+    color: black;
+    text-align: center;
+    padding: 5px;
+    border: 5px;     
+}
+	.myButton {
+		box-shadow: 5px -5px 0px 0px #212396;
+		background-color:transparent;
+		border-radius:16px;
+		border:4px solid #212396;
+		display:inline-block;
+		cursor:pointer;
+		color:#000000;
+		font-family:Arial;
+		font-size:14px;
+		font-weight:bold;
+		padding:12px 16px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #add3ff;
+	}
+	.myButton:hover {
+		background-color:transparent;
+	}
+	.myButton:active {
+		position:relative;
+		top:1px;
+	}
+	nav ul li{
+		list-style-type: none;
+		display: inline;
+		padding: 15px;
+	}
+	nav{
+		text-align: center;
+	}
+	footer{
+		background-color: #212396;
+		padding: 0;
+		margin: 0px;
+
+	}
+	.rod{
+		color: beige;
+		padding: 10px;
+	}
