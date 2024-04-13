@@ -1,8 +1,8 @@
 body{
-    background: rgb(254, 254, 235);
+    background: rgb(200, 200, 192);
 }
 #ADS, #bpk{
-    color: black;
+    color: rgb(22, 21, 21);
     text-align: center;
     padding: 5px;
     border: 5px;     
@@ -41,6 +41,11 @@ header{
 	nav{
 		text-align: center;
 	}
+	.qs{
+		font-size:large;
+		font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+		width: 60%;
+	}
 	footer{
 		background-color: #212396;
 		padding: 0;
@@ -50,4 +55,12 @@ header{
 	.rod{
 		color: beige;
 		padding: 10px;
+	}
+	.imgs{
+		text-align: center;
+		margin: 0;
+	}
+	.docentes{
+		border-radius: 100px;
+		display: inline;
 	}
