@@ -1,12 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
 
 body{
     background: #051118;
 }
 #ADS, #bpk{
-    color: rgb(238, 238, 238);
     text-align: center;
     padding: 5px;
     border: 5px;  
+	color: rgb(238, 238, 238);
 }
 header{
 	font-family: "Electrolize", sans-serif;
@@ -15,22 +16,28 @@ header{
 }
 
 .myButton {
-	box-shadow:inset 0px 0px 20px 6px #e32424;
+	box-shadow:inset 0px 0px 26px 6px #e32424;
 	background-color:transparent;
 	border-radius:42px;
-	border:3px solid #e64040;
+	border:3px solid red;
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
 	font-size:20px;
 	font-style:italic;
 	padding:12px 32px;
 	text-decoration:none;
-	text-shadow:0px 2px 0px #ba3737;
+	text-shadow:0px 1px 0px #ba3737;
+	font-family: "Electrolize", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(238, 238, 238);
+	transition: all 150ms ease-in-out;
+
 }
 .myButton:hover {
 	background-color:transparent;
+	box-shadow: 0 0 10px 0 red inset, 0 0 15px 4px red;
+	border:5px solid red;
 }
 .myButton:active {
 	position:relative;
@@ -45,11 +52,13 @@ header{
 	nav{
 		text-align: center;
 	}
-	h2{
-		color: aliceblue;
+	h1,h2{
 		padding: 10px;
 		padding-bottom: 0px;
-		font-family: Arial, Helvetica, sans-serif;
+		color: rgb(238, 238, 238);
+		font-family: "Electrolize", sans-serif;
+		font-weight: 400;
+		font-style:normal;
 	}
 	p{
 		font-family: "Atkinson Hyperlegible", sans-serif;
@@ -61,10 +70,29 @@ header{
 		padding-top: 3px;
 	}
 	footer{
-		background: rgb(5, 0, 34);
+		background: rgb(8, 2, 47);
 		padding: 0;
 		margin: 0px;
 
+	}
+	aside{
+		width: 15%;
+		height: 10%;
+	}
+	aside, iframe{
+		width: 10%%;
+		height: 10%;
+		text-align:center;
+	}
+	iframe{
+		width: 18%%;
+		height: 10%%;
+	}
+	#rod{
+		text-align: end;
+		font-family: "Electrolize", sans-serif;
+		font-weight: 400;
+		font-style:normal;
 	}
 	.imgs{
 		text-align: center;
