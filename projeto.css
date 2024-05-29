@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
-*{
-    margin:0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
-  }
-body{
+
+body{ /*fundo*/
     background: #03002a;
 }
 header{
@@ -130,4 +125,87 @@ aside{
 }
 .maps{
     align-items: center;
+}
+
+li{
+	padding: 2px;
+}
+
+.caixa {
+    width: 80%;
+    color: rgb(8, 2, 47);
+    background-color: red;
+    border: 3px solid red;
+    border-radius: 2px;
+    padding: 1px;
+    margin: 20px auto;
+}
+
+.titulo {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 20px;
+    font-family: "Electrolize", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.informacoes {
+    display: none;
+    padding: 5px 1px;
+    align-items: center;
+    color: rgb(238, 238, 238);
+    background-color: rgb(8, 2, 47);
+    border: 1px solid red;
+    border-radius: 5px;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    width: 100%;
+}
+
+.toggle-checkbox {
+    display: none;
+}
+
+.toggle-checkbox:checked + .titulo .mais::after {
+    content: "-";
+}
+
+.toggle-checkbox:checked + .titulo + .informacoes {
+    display: block;
+}
+
+.mais::after {
+    content: "+";
+    color: rgb(8, 2, 47);
+}
+
+@media (max-width: 768px) {
+    .caixa {
+        width: 90%;
+    }
+    .titulo {
+        font-size: 24px;
+        padding: 15px;
+    }
+    .informacoes {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 50px) and (max-width: 767px) {
+    .caixa {
+        width: 95%;
+    }
+    .titulo {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .informacoes {
+        font-size: 12px;
+    }
 }
