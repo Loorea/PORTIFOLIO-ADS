@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+body{
+    background: #03002a;
+}
+header{
+    padding: none;
+    width: 100%;
+    height: calc(90vh - 30px);
+    background-image: url("./eng de software.png");
+    display: block;
+  }
+.box{
+    width: 700px;
+    height: 320px;
+	font-family: "Electrolize", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+    font-size: 40px;
+    text-align: left; 
+	padding: 150px 180px;
+	color: rgb(238, 238, 238);
+	margin: 0 auto;
+    position:absolute;
+  }
+#ADS{
+        font-size: 45px;
+}
+#bpk{
+        font-size: 30px;
+}
+  .logo{
+    padding: 5px;
+	display: flex; 
+    align-content: start;
+    position: fixed;
+    margin: 10px;
+  }
+  nav ul li{
+	list-style-type: none;
+	display: inline;
+	padding: 15px;
+}
+nav{
+	text-align: center;
+    padding: 15px;
+}
+.button {
+	box-shadow:inset 0px 0px 26px 6px #940303;
+	background-color:#940303;
+	border-radius:42px;
+	border:3px solid 940303;
+	display:inline-block;
+	cursor:pointer;
+	font-size:20px;
+	font-style:italic;
+	padding:12px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ba3737;
+	font-family: "Electrolize", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: rgb(238, 238, 238);
+	transition: all 150ms ease-in-out;
+
+}
+.button:hover {
+		background-color:transparent;
+		box-shadow: 0 0 10px 0 #940303 inset, 0 0 15px 4px #940303;
+		border:5px solid #940303;
+}
+.button:active {
+		position:relative;
+		top:1px;
+}
+.Home{
+    background-color: #05013e;
+    width: 80%;
+    height: 100%;
+    padding: 20px 100px;
+    align-items: center;
+}
+h3,h4{
+	padding: 10px;
+	padding-bottom: 0px;
+    font-size: 30px;
+	color: rgb(238, 238, 238);
+	font-family: "Electrolize", sans-serif;
+	font-weight: 400;
+	font-style:normal;
+    text-align: center;
+}
+p{
+	font-family: "Atkinson Hyperlegible", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	width: 60%;
+	color: aliceblue;
+	padding: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+    text-align: center;
+}
+footer{
+	background: rgb(8, 2, 47);
+	padding: 0;
+	margin: 0px;
+}
+iframe{
+	width: 300px;
+	height: 150px;
+    align-items: center;
+}
+aside{
+    width: 300px;
+    height: 150px;
+    align-items: center;
+}
+#rod{
+    display: inline-block;
+	text-align: center;
+	font-family: "Electrolize", sans-serif;
+	font-weight: 400;
+	font-style:normal;
+}
+.maps{
+    align-items: center;
+}
