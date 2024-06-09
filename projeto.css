@@ -128,3 +128,49 @@ aside{
 	font-weight: 400;
 	font-style:normal;
 }
+/*Pagina de Extenção, estou ultilizando alguns elementos da pagina inicial como os botoes e body back-gruond👍*/
+.tituloESeletion{
+	background-color: #05013e;
+	padding: 20px;
+	background-image: linear-gradient(to bottom,#07024e, #03002a );
+}
+#tituloExtencoes{
+	color: aliceblue;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Electrolize", sans-serif;
+    font-weight: bold;
+}
+.logo2{
+    padding: 5px;
+	display: flex; 
+    align-content: start;
+    position: absolute;
+    margin: 10px;
+}
+#hackathon{
+	color: aliceblue;
+	position: relative;
+	top: 50px;
+	left: 70px;
+	font-size: 30px;
+	font-family: "Electrolize", sans-serif;
+    font-weight: bold;
+}
+#hackathonTexto{
+	color: aliceblue;
+	position: relative;
+	width: 60%;
+	top: 70px;
+	left: 70px;
+	font-size: 17px;
+    font-style: normal;
+	font-family: "Electrolize", sans-serif;
+    text-align: left;
+}
+#imagemhack{
+    position: absolute;
+    top: 200px;
+    left: 1175px;
+    width: 250px;
+}
