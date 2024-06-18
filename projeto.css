@@ -140,6 +140,32 @@ h6{
 	font-style:normal;
     width: 60%;
 }
+
+/*DOCENTES*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    padding: 30px;
+    box-sizing: border-box;
+    background-color:  #08022f;
+    color: aliceblue;
+}
+th, td {
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+
 /*Pagina de Extenção, estou ultilizando alguns elementos da pagina inicial como os botoes e body back-gruond👍*/
 .tituloESeletion{
 	background-color: #05013e;
