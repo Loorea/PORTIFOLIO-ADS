@@ -372,8 +372,9 @@ nav {
 
 .button {
     width: 100%;
-    padding: 15px 0;
+    padding: 15px;
     font-size: 18px;
+    text-align: center;
 }
 
 .box {
