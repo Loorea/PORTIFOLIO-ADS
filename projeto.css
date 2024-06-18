@@ -10,7 +10,6 @@ html{
 	scroll-behavior: smooth;
 }
 
-  
 body{
     background: #03002a;
 }
@@ -192,6 +191,10 @@ h6{
 ol{
     list-style: none;
 }
+li{
+    padding: 2px;
+    list-style: none;
+}
 
 .TituloEmenta{
     text-align: center;
@@ -215,7 +218,6 @@ ol{
 
 .caixa {
     width: 80%;
-    color: rgb(8, 2, 47);
     background-color: red;
     border: 3px solid red;
     border-radius: 2px;
@@ -237,16 +239,14 @@ ol{
 
 .informacoes {
     display: none;
-    padding: 5px 1px;
-    align-items: center;
-    color: rgb(238, 238, 238);
+    color: aliceblue;
     background-color: rgb(8, 2, 47);
     border: 1px solid red;
+    padding: 10px;
     border-radius: 5px;
     font-family: "Atkinson Hyperlegible", sans-serif;
     font-weight: 200;
     font-style: normal;
-    width: 100%;
 }
 
 .toggle-checkbox {
@@ -268,6 +268,10 @@ ol{
 
 /* REGULAMENTOS */
 
+h2{
+    padding: 25px;
+}
+
 .TituloRegulamento{
     text-align: center;
     color: aliceblue;
@@ -277,30 +281,139 @@ ol{
 	font-family: "Electrolize", sans-serif;
 
 }
-
-
-@media (max-width: 768px) {
-    .caixa {
-        width: 80%;
-    }
-    .titulo {
-        font-size: 24px;
-        padding: 15px;
-    }
-    .informacoes {
-        font-size: 14px;
-    }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
-@media (min-width: 50px) and (max-width: 767px) {
-    .caixa {
-        width: 80%;
-    }
-    .titulo {
-        font-size: 20px;
-        padding: 10px;
-    }
-    .informacoes {
-        font-size: 12px;
-    }
+.colunaA{
+    width: 33.33%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #03002a;
+    color: aliceblue;
+}
+
+.colunaB{
+    width: 33.33%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color:  #08022f;
+    color: aliceblue;
+}
+
+
+/* Media Queries */
+@media (max-width: 1200px) {
+
+.box {
+    width: 100%;
+    padding: 100px 50px;
+    font-size: 30px;
+}
+
+#imagemhack {
+    position: static;
+    margin: 20px auto;
+}
+
+}
+
+@media (max-width: 768px) {
+
+.container {
+    flex-direction: column;
+}
+
+.colunaA, .colunaB {
+    width: 100%;
+}
+
+.Home {
+    padding: 20px;
+}
+
+.box {
+    padding: 50px 20px;
+    font-size: 25px;
+}
+
+#hackathon, #hackathonTexto {
+    left: 0;
+    text-align: center;
+    width: 100%;
+}
+
+}
+
+@media (max-width: 480px) {
+
+nav ul li {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    padding: 10px;
+}
+
+#ADS{
+    font-size: 40px;
+    text-align: left;
+    padding: 55px 0px 20px 0px;
+}
+#bpk{
+    font-size: 25px;
+    padding: 10px 0px 20px 0px;
+}
+
+.button {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+.box {
+    padding: 20px;
+    font-size: 20px;
+}
+
+#tituloExtencoes {
+    font-size: 30px;
+}
+
+.TituloEmenta, .TituloRegulamento {
+    font-size: 30px;
+}
+
+.SubtituloEmenta {
+    font-size: 15px;
+}
+
+#hackathon {
+    font-size: 25px;
+}
+
+#hackathonTexto {
+    font-size: 15px;
+}
+
+iframe, aside {
+    width: 100%;
+}
+
+.caixa {
+    width: 90%;
+}
+
+.titulo {
+    font-size: 25px;
+}
+
+.informacoes {
+    font-size: 14px;
+}
+
 }
