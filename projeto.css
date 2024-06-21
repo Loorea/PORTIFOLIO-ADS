@@ -248,8 +248,8 @@ li{
 
 .caixa {
     width: 80%;
-    background-color: red;
-    border: 3px solid red;
+    background-color: #940303;
+    border: 3px solid #940303;
     border-radius: 2px;
     padding: 1px;
     margin: 20px auto;
@@ -265,13 +265,14 @@ li{
     font-weight: 400;
     font-style: normal;
     text-align: center;
+    color: aliceblue;
 }
 
 .informacoes {
     display: none;
     color: aliceblue;
     background-color: rgb(8, 2, 47);
-    border: 1px solid red;
+    border: 1px solid #940303;
     padding: 10px;
     border-radius: 5px;
     font-family: "Atkinson Hyperlegible", sans-serif;
@@ -293,7 +294,7 @@ li{
 
 .mais::after {
     content: "+";
-    color: rgb(8, 2, 47);
+    color: aliceblue;
 }
 
 /* REGULAMENTOS */
