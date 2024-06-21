@@ -17,7 +17,9 @@ header{
     padding: none;
     width: 100%;
     height: calc(90vh - 30px);
-    background-image: url("./eng de software.png");
+    background-image: url("./ads.png");
+    background-repeat: no-repeat;
+    background-position: 600px;
     display: block;
   }
 .box{
@@ -377,6 +379,13 @@ h2{
 
 @media (max-width: 480px) {
 
+header{
+    width: 100%;
+    background-size: 430px;
+    background-image: url(./ads.png);
+    background-repeat: no-repeat;
+    background-position: -10px 300px;
+}
 nav ul li {
     display: block;
     text-align: center;
