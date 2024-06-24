@@ -50,6 +50,12 @@ header{
     position: fixed;
     margin: 10px;
   }
+
+  .selo{
+    display: flex;
+    margin: 10px 10px 10px 90%;
+  }
+
   nav ul li{
 	list-style-type: none;
 	display: inline;
@@ -355,6 +361,14 @@ h2{
 
 @media (max-width: 768px) {
 
+header{
+    width: 100%;
+    background-size: 600px;
+    background-image: url(./ads.png);
+    background-repeat: no-repeat;
+    background-position: -10px;
+}
+
 .container {
     flex-direction: column;
 }
@@ -387,8 +401,16 @@ header{
     background-size: 430px;
     background-image: url(./ads.png);
     background-repeat: no-repeat;
-    background-position: -10px 300px;
+    background-position: 10px 30px;
 }
+
+.selo{
+    display: flex;
+    margin: 10px 10px 10px 75%;
+    width: 90px;
+    height: 90px;
+}
+
 nav ul li {
     display: block;
     text-align: center;
