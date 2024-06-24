@@ -19,7 +19,8 @@ header{
     height: calc(90vh - 30px);
     background-image: url("./ads.png");
     background-repeat: no-repeat;
-    background-position: 600px;
+    background-size: 750px;
+    background-position: 700px;
     display: block;
   }
 .box{
@@ -94,6 +95,7 @@ nav{
     text-align: center;
 }
 h3,h4{
+    margin-top: 15px;
 	padding: 10px;
 	padding-bottom: 0px;
     font-size: 30px;
@@ -110,8 +112,8 @@ main section p{
     font-size: 20px;
 	color: aliceblue;
 	padding: 10px;
-	padding-top: 0px;
-	padding-bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 30px;
     text-align: center;
 }
 footer{
