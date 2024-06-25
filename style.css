@@ -273,14 +273,6 @@ img {
     margin: 0 auto 10px;
 }
 
-.circular-img {
-    width: 150px; /* Defina o tamanho desejado */
-    height: 150px; /* Defina o tamanho desejado */
-    border-radius: 50%;
-    border: 5px solid #333; /* Cor e espessura da borda */
-    object-fit: cover; /* Garante que a imagem preencha o container */
-}
-
 
 /*Pagina de Extenção, estou ultilizando alguns elementos da pagina inicial como os botoes e body back-gruond👍*/
 .tituloESeletion{
