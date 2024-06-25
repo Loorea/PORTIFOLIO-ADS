@@ -585,3 +585,98 @@ iframe, aside {
 }
 
 }
+/*Estensoes*/
+#Extensoes{
+    background-color: #08022f;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+    text-align: center;
+}
+#tituloExtencoes{
+	color: aliceblue;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Electrolize", sans-serif;
+    font-weight: bold;
+}
+#hackathon{
+	color: aliceblue;
+	position: relative;
+	top: 50px;
+	left: 70px;
+	font-size: 30px;
+	font-family: "Electrolize", sans-serif;
+    font-weight: bold;
+}
+#hackathonTexto{
+	color: aliceblue;
+	position: relative;
+	width: 60%;
+	top: 100px;
+	left: 70px;
+	font-size: 20px;
+    font-style: normal;
+	font-family: "Atkinson Hyperlegible", sans-serif;
+    text-align: left;
+    margin-top: 20px
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.carousel-container {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    height: 400px; 
+    overflow: hidden;
+    border: 2px solid aliceblue;
+    border-radius: 2px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    background-color: aliceblue;
+    margin-top: -110px;
+    margin-left: auto;
+}
+
+.carousel {
+    display: flex;
+    width: calc(450px * 13);
+    height: 100%;
+    animation: slide 91s infinite;
+}
+
+.carousel-item {
+    width: 450px;
+    height: auto;
+    flex: none;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@keyframes slide {
+    0%, 7% { transform: translateX(0); }
+    7%, 14% { transform: translateX(-450px); }
+    14%, 21% { transform: translateX(-900px); }
+    21%, 28% { transform: translateX(-1350px); }
+    28%, 35% { transform: translateX(-1800px); }
+    35%, 42% { transform: translateX(-2250px); }
+    42%, 49% { transform: translateX(-2700px); }
+    49%, 56% { transform: translateX(-3150px); }
+    56%, 63% { transform: translateX(-3600px); }
+    63%, 70% { transform: translateX(-4050px); }
+    70%, 77% { transform: translateX(-4500px); } 
+    77%, 84% { transform: translateX(-4950px); }
+    84%, 91% { transform: translateX(-5400px); }
+    91%, 100% { transform: translateX(-5850px); }
+}
